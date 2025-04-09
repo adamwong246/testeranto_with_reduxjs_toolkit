@@ -1,6 +1,6 @@
 {
   "name": "testeranto_with_reduxjs_toolkit",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "repository": "git@github.com:adamwong246/testeranto-redux-toolkit.git",
   "author": "adam wong <adamwong246@gmail.com>",
@@ -19,6 +19,6 @@
     "t-init": "tsx node_modules/testeranto/dist/prebuild/init-docs.mjs"
   },
   "exports": {
-    "./*": "./src/*.ts"
+    "./src/*": "./src/*.ts"
   }
 }
