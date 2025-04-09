@@ -1,0 +1,80 @@
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (12,3): Property 'store' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (13,3): Property 'testResourceConfiguration' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (15,3): Property 'failed' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (191,3): Property 'error' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (193,3): Property 'store' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (194,3): Property 'recommendedFsPath' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (197,3): Property 'key' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (198,3): Property 'failed' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (323,7): Type 'unknown' is not assignable to type 'Error'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (353,12): 'e' is of type 'unknown'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (391,9): Type 'unknown' is not assignable to type 'boolean'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (404,3): Property 'error' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (482,3): Property 'go' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (521,9): Type 'unknown' is not assignable to type 'boolean'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (561,7): Type 'unknown' is not assignable to type 'boolean'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (570,3): Property 'key' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/abstractBase.ts (575,3): Property 'store' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/basebuilder.ts (33,3): Property 'assertThis' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/basebuilder.ts (44,3): Property 'puppetMaster' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/basebuilder.ts (80,13): Argument of type '(fPath: string, value: string | Buffer | PassThrough) => void' is not assignable to parameter of type '(fPath: string, value: unknown) => void'.
+  Types of parameters 'value' and 'value' are incompatible.
+    Type 'unknown' is not assignable to type 'string | Buffer<ArrayBufferLike> | PassThrough'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/basebuilder.ts (166,29): Property 'artifacts' does not exist on type '{ test: BaseSuite<I, O>; toObj: () => { name: string; givens: { key: string; name: string; whens: { name: string; error: boolean; }[]; thens: { name: string; error: boolean; }[]; error: (string | Error | undefined)[] | null; failed: boolean; features: string[]; }[]; checks: any[]; fails: number; failed: boolean; fea...'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/classBuilder.ts (40,60): Property 'suites' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/classBuilder.ts (55,60): Property 'givens' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/classBuilder.ts (64,32): Property 'givens' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/classBuilder.ts (73,59): Property 'whens' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/classBuilder.ts (74,7): No overload matches this call.
+  Overload 1 of 3, '(callbackfn: (previousValue: [string, unknown], currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => [string, unknown], initialValue: [string, unknown]): [string, unknown]', gave the following error.
+    Argument of type '(a: {}, [key, whEn]: [string, (x: any) => any]) => {}' is not assignable to parameter of type '(previousValue: [string, unknown], currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => [string, unknown]'.
+      Types of parameters '__1' and 'currentValue' are incompatible.
+        Type '[string, unknown]' is not assignable to type '[string, (x: any) => any]'.
+          Type at position 1 in source is not compatible with type at position 1 in target.
+            Type 'unknown' is not assignable to type '(x: any) => any'.
+  Overload 2 of 3, '(callbackfn: (previousValue: {}, currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => {}, initialValue: {}): {}', gave the following error.
+    Argument of type '(a: {}, [key, whEn]: [string, (x: any) => any]) => {}' is not assignable to parameter of type '(previousValue: {}, currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => {}'.
+      Types of parameters '__1' and 'currentValue' are incompatible.
+        Type '[string, unknown]' is not assignable to type '[string, (x: any) => any]'.
+          Type at position 1 in source is not compatible with type at position 1 in target.
+            Type 'unknown' is not assignable to type '(x: any) => any'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/classBuilder.ts (86,59): Property 'thens' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/classBuilder.ts (87,7): No overload matches this call.
+  Overload 1 of 3, '(callbackfn: (previousValue: [string, unknown], currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => [string, unknown], initialValue: [string, unknown]): [string, unknown]', gave the following error.
+    Argument of type '(a: {}, [key, thEn]: [string, (x: any) => any]) => {}' is not assignable to parameter of type '(previousValue: [string, unknown], currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => [string, unknown]'.
+      Types of parameters '__1' and 'currentValue' are incompatible.
+        Type '[string, unknown]' is not assignable to type '[string, (x: any) => any]'.
+          Type at position 1 in source is not compatible with type at position 1 in target.
+            Type 'unknown' is not assignable to type '(x: any) => any'.
+  Overload 2 of 3, '(callbackfn: (previousValue: {}, currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => {}, initialValue: {}): {}', gave the following error.
+    Argument of type '(a: {}, [key, thEn]: [string, (x: any) => any]) => {}' is not assignable to parameter of type '(previousValue: {}, currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => {}'.
+      Types of parameters '__1' and 'currentValue' are incompatible.
+        Type '[string, unknown]' is not assignable to type '[string, (x: any) => any]'.
+          Type at position 1 in source is not compatible with type at position 1 in target.
+            Type 'unknown' is not assignable to type '(x: any) => any'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/classBuilder.ts (99,60): Property 'checks' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/lib/classBuilder.ts (118,7): Argument of type '[string, unknown]' is not assignable to parameter of type 'Record<string, IWhenKlasser<I>>'.
+  Index signature for type 'string' is missing in type '[string, unknown]'.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/PM/index.ts (13,3): Property 'testResourceConfiguration' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/PM/node.ts (16,3): Property 'client' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto-redux-toolkit/src/index.ts (79,11): No overload matches this call.
+  Overload 1 of 2, '(reducer: Reducer<IStoreShape, AnyAction, IStoreShape>, enhancer?: StoreEnhancer<object, object> | undefined): Store<...> & object', gave the following error.
+    Argument of type '(c?: any) => StoreEnhancerStoreCreator<object, object>' is not assignable to parameter of type 'StoreEnhancer<object, object>'.
+      Type 'StoreEnhancerStoreCreator<object, object>' is not assignable to type 'StoreEnhancerStoreCreator<NextExt & object, NextStateExt & object>'.
+        Type 'object' is not assignable to type 'NextExt & object'.
+          Type 'object' is not assignable to type 'NextExt'.
+            'object' is assignable to the constraint of type 'NextExt', but 'NextExt' could be instantiated with a different subtype of constraint '{}'.
+  Overload 2 of 2, '(reducer: Reducer<IStoreShape, AnyAction, IStoreShape>, preloadedState?: IStoreShape | undefined, enhancer?: StoreEnhancer<object, object> | undefined): Store<...> & object', gave the following error.
+    Argument of type '(c?: any) => StoreEnhancerStoreCreator<object, object>' is not assignable to parameter of type 'IStoreShape'.
+      'IStoreShape' could be instantiated with an arbitrary type which could be unrelated to '(c?: any) => StoreEnhancerStoreCreator<object, object>'.
+/Users/adam/Code/testeranto-redux-toolkit/src/index.ts (84,41): Argument of type 'object' is not assignable to parameter of type 'never'.
+/Users/adam/Code/testeranto-redux-toolkit/src/index.ts (84,52): Expected 1 arguments, but got 0.
+/Users/adam/Code/testeranto-redux-toolkit/test/node.ts (7,58): File '/Users/adam/Code/testeranto-redux-toolkit/test/test.ts' is not under 'rootDir' '/Users/adam/Code/testeranto-redux-toolkit/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Root file specified for compilation
+    Imported via "./test" from file '/Users/adam/Code/testeranto-redux-toolkit/test/node.ts'
+/Users/adam/Code/testeranto-redux-toolkit/test/test.ts (7,39): File '/Users/adam/Code/testeranto-redux-toolkit/test/index.ts' is not under 'rootDir' '/Users/adam/Code/testeranto-redux-toolkit/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Root file specified for compilation
+    Imported via "./index.js" from file '/Users/adam/Code/testeranto-redux-toolkit/test/test.ts'
+    Imported via "." from file '/Users/adam/Code/testeranto-redux-toolkit/test/node.ts'

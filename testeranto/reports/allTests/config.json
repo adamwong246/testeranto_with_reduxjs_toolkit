@@ -1,6 +1,14 @@
 {
   "tests": [
     [
+      "./test/node.ts",
+      "node",
+      {
+        "ports": 0
+      },
+      []
+    ],
+    [
       "./test/pure.ts",
       "pure",
       {

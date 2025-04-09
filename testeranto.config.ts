@@ -4,7 +4,7 @@ const config: IProject = {
   projects: {
     allTests: {
       tests: [
-        // ["./test/node.ts", "node", { ports: 0 }, []],
+        ["./test/node.ts", "node", { ports: 0 }, []],
         ["./test/pure.ts", "pure", { ports: 0 }, []],
         ["./test/web.ts", "web", { ports: 0 }, []],
       ],
