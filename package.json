@@ -1,0 +1,12 @@
+{
+  "name": "testeranto_with_reduxjs_toolkit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:adamwong246/testeranto-redux-toolkit.git",
+  "author": "adam wong <adamwong246@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.1",
+    "testeranto": "^0.121.1"
+  }
+}
