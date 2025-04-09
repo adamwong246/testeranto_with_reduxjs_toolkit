@@ -242,13 +242,8 @@
         "format": "esm"
       },
       "src/index.ts": {
-        "bytes": 2456,
+        "bytes": 2410,
         "imports": [
-          {
-            "path": "testeranto/src/PM",
-            "kind": "import-statement",
-            "external": true
-          },
           {
             "path": "testeranto/src/Types",
             "kind": "import-statement",
@@ -268,6 +263,11 @@
             "path": "node_modules/redux/dist/redux.mjs",
             "kind": "import-statement",
             "original": "redux"
+          },
+          {
+            "path": "testeranto/src/lib/types",
+            "kind": "import-statement",
+            "external": true
           }
         ],
         "format": "esm"
@@ -410,7 +410,7 @@
         "format": "esm"
       },
       "test/index.ts": {
-        "bytes": 3536,
+        "bytes": 3557,
         "imports": [
           {
             "path": "node_modules/@reduxjs/toolkit/dist/redux-toolkit.modern.mjs",
@@ -421,7 +421,7 @@
         "format": "esm"
       },
       "test/test.ts": {
-        "bytes": 3039,
+        "bytes": 3040,
         "imports": [
           {
             "path": "testeranto/src/Types",
@@ -541,13 +541,13 @@
             "bytesInOutput": 2083
           },
           "test/test.ts": {
-            "bytesInOutput": 2621
+            "bytesInOutput": 2622
           },
           "test/pure.ts": {
             "bytesInOutput": 84
           }
         },
-        "bytes": 232053
+        "bytes": 232054
       }
     }
   }

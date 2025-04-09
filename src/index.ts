@@ -1,4 +1,4 @@
-import { PM } from "testeranto/src/PM";
+
 import { Ibdd_in, IPartialInterface, OT } from "testeranto/src/Types";
 import { ITestImplementation } from "testeranto/src/Types";
 
@@ -10,6 +10,7 @@ import {
   Store,
 } from "@reduxjs/toolkit";
 import { createStore, AnyAction, StoreEnhancerStoreCreator } from "redux";
+import { IPM } from "testeranto/src/lib/types";
 
 export type WhenShape = [
   (
@@ -18,7 +19,6 @@ export type WhenShape = [
   ),
   object
 ];
-// export type ThenShape = (state: any, pm: PM) => void;
 
 export type IINput<IStoreState> = Reducer<IStoreState, AnyAction>;
 
@@ -29,7 +29,7 @@ export type IReduxIn<IStoreState> = Ibdd_in<
   IStoreState,
   StoreEnhancerStoreCreator<object, object>,
   WhenShape,
-  (x: IStoreState, pm: PM) => IStoreState
+  (x: IStoreState, pm: IPM) => IStoreState
 >;
 
 export type BaseImplementation<
@@ -59,7 +59,7 @@ export type BaseImplementation<
     thens: {
       [K in keyof bddout["thens"]]: (
         ...It: bddout["thens"][K]
-      ) => (ssel: IReduxIn<IStoreShape>["iselection"], utils: PM) => void;
+      ) => (ssel: IReduxIn<IStoreShape>["iselection"], utils: IPM) => void;
     };
   }
 >;

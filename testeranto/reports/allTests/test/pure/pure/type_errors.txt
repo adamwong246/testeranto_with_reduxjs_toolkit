@@ -69,9 +69,6 @@
       'IStoreShape' could be instantiated with an arbitrary type which could be unrelated to '(c?: any) => StoreEnhancerStoreCreator<object, object>'.
 /Users/adam/Code/testeranto-redux-toolkit/src/index.ts (84,41): Argument of type 'object' is not assignable to parameter of type 'never'.
 /Users/adam/Code/testeranto-redux-toolkit/src/index.ts (84,52): Expected 1 arguments, but got 0.
-/Users/adam/Code/testeranto-redux-toolkit/src/index.ts (88,43): Argument of type 'IPM' is not assignable to parameter of type 'PM'.
-  Type 'PM_Web' is missing the following properties from type 'PM': server, pages
-/Users/adam/Code/testeranto-redux-toolkit/test/index.ts (32,3): Expected 4-5 type arguments, but got 2.
 /Users/adam/Code/testeranto-redux-toolkit/test/pure.ts (7,58): File '/Users/adam/Code/testeranto-redux-toolkit/test/test.ts' is not under 'rootDir' '/Users/adam/Code/testeranto-redux-toolkit/src'. 'rootDir' is expected to contain all source files.
   The file is in the program because:
     Root file specified for compilation

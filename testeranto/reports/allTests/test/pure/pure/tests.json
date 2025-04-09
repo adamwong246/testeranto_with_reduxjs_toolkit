@@ -86,29 +86,18 @@
       ],
       "thens": [
         {
-          "name": "TheEmailIs: hey ther",
-          "error": {
-            "message": "expected 'hey there' to equal 'hey ther'",
-            "actual": "hey there",
-            "expected": "hey ther",
-            "showDiff": true,
-            "operator": "strictEqual",
-            "name": "AssertionError",
-            "ok": false,
-            "stack": "AssertionError: expected 'hey there' to equal 'hey ther'\n    at Then.thenCB (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:6939:14)\n    at go (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:360:20)\n    at Object.butThen (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:1200:14)\n    at Then.butThen (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:725:42)\n    at Then.test (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:384:19)\n    at Given.give (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:247:34)\n    at async Testeranto.uberCatcher.run (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:107:22)\n    at async file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:478:19\n    at async Object.receiveTestResourceConfig (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:509:29)\n    at async PureTesteranto.receiveTestResourceConfig (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/pure/allTests/test/pure.mjs?cacheBust=1744237176382:947:12)"
-          }
+          "name": "TheEmailIs: hey there",
+          "error": false
         }
       ],
       "error": null,
-      "failed": true,
       "features": [
         "Set the email, check the email"
       ]
     }
   ],
   "checks": [],
-  "fails": 1,
-  "failed": true,
+  "fails": 0,
   "features": [
     "Set the email, check the email",
     "set the default email and then check",

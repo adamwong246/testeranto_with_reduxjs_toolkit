@@ -29,15 +29,4 @@ Suite:,0,Testing the Redux store
 
  Given: AnEmptyState
  When:,TheEmailIsSetTo: hey there
- Then!!!:,TheEmailIs: hey ther
-AssertionError: expected 'hey there' to equal 'hey ther'
-    at Then.thenCB (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:6931:14)
-    at go (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:472:20)
-    at Object.butThen (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:1169:14)
-    at Then.butThen (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:839:42)
-    at Then.test (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:497:19)
-    at Given.give (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:359:34)
-    at async Testeranto.uberCatcher.run (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:217:22)
-    at async file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:592:19
-    at async Object.receiveTestResourceConfig (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:623:29)
-    at async WebTesteranto.receiveTestResourceConfig (file:///Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/web/allTests/test/web.mjs?cacheBust=1744237176382:919:12)
+ Then!!!:,TheEmailIs: hey there

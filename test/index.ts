@@ -39,7 +39,10 @@ export const loginApp = createSlice<
       s: IStoreState,
       b: { payload: ILoginPageError; type: string }
     ) => void;
-  }
+  },
+  any,
+  any,
+  any
 >({
   name: "my login app",
   initialState,
