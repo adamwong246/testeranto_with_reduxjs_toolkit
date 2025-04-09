@@ -1,0 +1,15 @@
+
+/add src/index.ts
+/add src/pure.ts
+/add test/index.ts
+/add test/test.ts
+/add test/pure.ts
+
+/read testeranto/reports/allTests/test/pure/pure/lint_errors.json
+/read testeranto/reports/allTests/test/pure/pure/type_errors.txt
+/read testeranto/reports/allTests/pure/test/pure/tests.json
+
+/load testeranto/reports/allTests/pure/test/pure/featurePrompt.txt
+
+/code Fix the failing tests described in testeranto/reports/allTests/pure/test/pure/tests.json. Correct any type signature errors described in the files testeranto/reports/allTests/test/pure/pure/type_errors.txt. Implement any method which throws "Function not implemented. Resolve the lint errors described in testeranto/reports/allTests/test/pure/pure/lint_errors.json"
+          

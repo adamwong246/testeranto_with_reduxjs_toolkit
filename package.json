@@ -7,6 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
-    "testeranto": "^0.121.1"
+    "testeranto": "0.125.1",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "t-build": "tsx node_modules/testeranto/dist/prebuild/build.mjs",
+    "t-run": "tsx node_modules/testeranto/dist/prebuild/run.mjs",
+    "t-init": "tsx node_modules/testeranto/dist/prebuild/init-docs.mjs"
   }
 }

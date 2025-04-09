@@ -1,0 +1,30 @@
+{
+  "tests": [
+    [
+      "./test/pure.ts",
+      "pure",
+      {
+        "ports": 0
+      },
+      []
+    ],
+    [
+      "./test/web.ts",
+      "web",
+      {
+        "ports": 0
+      },
+      []
+    ]
+  ],
+  "clearScreen": false,
+  "debugger": false,
+  "externals": [],
+  "importPlugins": [],
+  "minify": false,
+  "nodePlugins": [],
+  "ports": [],
+  "src": "",
+  "webPlugins": [],
+  "buildDir": "/Users/adam/Code/testeranto-redux-toolkit/testeranto/bundles/allTests"
+}
