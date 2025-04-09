@@ -1,13 +1,16 @@
 {
   "name": "testeranto_with_reduxjs_toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:adamwong246/testeranto-redux-toolkit.git",
   "author": "adam wong <adamwong246@gmail.com>",
   "license": "MIT",
+  "type": "module",
+  "types": "dist/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
     "testeranto": "0.125.1",
+    "tsc": "^2.0.4",
     "typescript": "^5.8.3"
   },
   "scripts": {
