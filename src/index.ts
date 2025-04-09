@@ -27,7 +27,7 @@ export type IReduxIn<IStoreState> = Ibdd_in<
   Reducer<IStoreState, AnyAction>,
   Store<IStoreState, AnyAction>,
   IStoreState,
-  StoreEnhancerStoreCreator<unknown, unknown>,
+  StoreEnhancerStoreCreator<object, object>,
   WhenShape,
   (x: IStoreState, pm: PM) => IStoreState
 >;
@@ -74,7 +74,7 @@ export const ReduxTesterantoInterface = <
   {
     const testInterface: IPartialInterface<IReduxIn<IStoreShape>> = {
       beforeEach: async function (subject, initializer) {
-        return createStore<IStoreShape, AnyAction, unknown, unknown>(
+        return createStore<IStoreShape, AnyAction, object, object>(
           subject,
           initializer
         );

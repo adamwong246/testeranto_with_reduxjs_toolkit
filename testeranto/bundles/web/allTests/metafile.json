@@ -206,7 +206,7 @@
         "format": "esm"
       },
       "src/index.ts": {
-        "bytes": 2460,
+        "bytes": 2456,
         "imports": [
           {
             "path": "testeranto/src/PM",
@@ -385,7 +385,7 @@
         "format": "esm"
       },
       "test/test.ts": {
-        "bytes": 3040,
+        "bytes": 3039,
         "imports": [
           {
             "path": "testeranto/src/Types",
@@ -491,13 +491,13 @@
             "bytesInOutput": 2083
           },
           "test/test.ts": {
-            "bytesInOutput": 2622
+            "bytesInOutput": 2621
           },
           "test/web.ts": {
             "bytesInOutput": 82
           }
         },
-        "bytes": 230768
+        "bytes": 230767
       }
     }
   }

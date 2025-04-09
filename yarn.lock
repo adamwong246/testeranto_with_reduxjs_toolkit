@@ -5188,10 +5188,10 @@ tar-stream@^3.1.5:
     fast-fifo "^1.2.0"
     streamx "^2.15.0"
 
-testeranto@0.125.1:
-  version "0.125.1"
-  resolved "https://registry.yarnpkg.com/testeranto/-/testeranto-0.125.1.tgz#db0b63fc3eaec5314bb75b2873f5acc26a301541"
-  integrity sha512-bWxv2r/cVEQyp4ROLzyv8E52dA52SMckoL3pdyh2ViFMJhuLWsyFNZ0bhGSb7TSYkgVLWu7z0oBLdmLb61R5jg==
+testeranto@0.125.2:
+  version "0.125.2"
+  resolved "https://registry.yarnpkg.com/testeranto/-/testeranto-0.125.2.tgz#44d4cac5f60da4a178ff53aa1cb3917b7535703d"
+  integrity sha512-yan72MaUro/Kf/uaSGMxc5YIsWWRf9I2wO9UMl+5AjDVIMlpTDiHdDx0pMtn1trRJzlT4kASAXRCgyXnuqXtxg==
   dependencies:
     "@bscotch/debounce-watch" "^1.1.0"
     "@humanwhocodes/config-array" "^0.13.0"
@@ -5356,6 +5356,11 @@ tsc-prog@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/tsc-prog/-/tsc-prog-2.3.0.tgz#b14ffb4e9487cca5cf42185f2a94963978faf8ee"
   integrity sha512-ycET2d75EgcX7y8EmG4KiZkLAwUzbY4xRhA6NU0uVbHkY4ZjrAAuzTMxXI85kOwATqPnBI5C/7y7rlpY0xdqHA==
+
+tsc@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/tsc/-/tsc-2.0.4.tgz#5f6499146abea5dca4420b451fa4f2f9345238f5"
+  integrity sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==
 
 tsconfig-paths@^3.15.0:
   version "3.15.0"

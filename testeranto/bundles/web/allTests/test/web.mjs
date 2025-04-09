@@ -6973,7 +6973,7 @@ var AppSpecification = (Suite, Given, When, Then) => {
         test4: Given.AnEmptyState(
           ["Set the email, check the email"],
           [When.TheEmailIsSetTo("hey there")],
-          [Then.TheEmailIs("hey there")]
+          [Then.TheEmailIs("hey ther")]
         )
       },
       [

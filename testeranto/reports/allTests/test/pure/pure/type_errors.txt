@@ -57,8 +57,16 @@
   Index signature for type 'string' is missing in type '[string, unknown]'.
 /Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/PM/index.ts (13,3): Property 'testResourceConfiguration' has no initializer and is not definitely assigned in the constructor.
 /Users/adam/Code/testeranto-redux-toolkit/node_modules/testeranto/src/PM/node.ts (16,3): Property 'client' has no initializer and is not definitely assigned in the constructor.
-/Users/adam/Code/testeranto-redux-toolkit/src/index.ts (30,29): Type 'unknown' does not satisfy the constraint '{}'.
-/Users/adam/Code/testeranto-redux-toolkit/src/index.ts (77,52): Type 'unknown' does not satisfy the constraint '{}'.
+/Users/adam/Code/testeranto-redux-toolkit/src/index.ts (79,11): No overload matches this call.
+  Overload 1 of 2, '(reducer: Reducer<IStoreShape, AnyAction, IStoreShape>, enhancer?: StoreEnhancer<object, object> | undefined): Store<...> & object', gave the following error.
+    Argument of type '(c?: any) => StoreEnhancerStoreCreator<object, object>' is not assignable to parameter of type 'StoreEnhancer<object, object>'.
+      Type 'StoreEnhancerStoreCreator<object, object>' is not assignable to type 'StoreEnhancerStoreCreator<NextExt & object, NextStateExt & object>'.
+        Type 'object' is not assignable to type 'NextExt & object'.
+          Type 'object' is not assignable to type 'NextExt'.
+            'object' is assignable to the constraint of type 'NextExt', but 'NextExt' could be instantiated with a different subtype of constraint '{}'.
+  Overload 2 of 2, '(reducer: Reducer<IStoreShape, AnyAction, IStoreShape>, preloadedState?: IStoreShape | undefined, enhancer?: StoreEnhancer<object, object> | undefined): Store<...> & object', gave the following error.
+    Argument of type '(c?: any) => StoreEnhancerStoreCreator<object, object>' is not assignable to parameter of type 'IStoreShape'.
+      'IStoreShape' could be instantiated with an arbitrary type which could be unrelated to '(c?: any) => StoreEnhancerStoreCreator<object, object>'.
 /Users/adam/Code/testeranto-redux-toolkit/src/index.ts (84,41): Argument of type 'object' is not assignable to parameter of type 'never'.
 /Users/adam/Code/testeranto-redux-toolkit/src/index.ts (84,52): Expected 1 arguments, but got 0.
 /Users/adam/Code/testeranto-redux-toolkit/src/index.ts (88,43): Argument of type 'IPM' is not assignable to parameter of type 'PM'.

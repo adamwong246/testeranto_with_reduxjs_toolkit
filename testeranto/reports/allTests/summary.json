@@ -1,13 +1,13 @@
 {
   "./test/pure.ts": {
-    "runTimeError": 0,
-    "typeErrors": 40,
+    "runTimeError": 1,
+    "typeErrors": 39,
     "staticErrors": 1,
     "prompt": "aider --model deepseek/deepseek-chat --load testeranto/allTests/reports/pure/./test/pure/prompt.txt"
   },
   "./test/web.ts": {
-    "runTimeError": 0,
-    "typeErrors": 42,
+    "runTimeError": 1,
+    "typeErrors": 41,
     "staticErrors": 1,
     "prompt": "aider --model deepseek/deepseek-chat --load testeranto/allTests/reports/web/./test/web/prompt.txt"
   }
